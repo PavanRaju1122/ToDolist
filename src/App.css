@@ -1,0 +1,29 @@
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  margin-left: 5px;
+  font-weight: bold;
+}
+.button:first-child {
+  margin-left: 10;
+}
+
+.Items{
+  display: flex;
+  flex-direction: row;
+  width: 350px;
+  justify-content: space-between;
+}
+.buttons{
+  display: flex;
+  flex-direction: row;
+  align-content: right;
+  align-items: center;
+}
